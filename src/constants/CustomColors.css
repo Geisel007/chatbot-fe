@@ -1,0 +1,17 @@
+:root {
+  --background1: #FFFFFF;
+  --background2: #FAFAFA;
+  --gray: #7C94AC;
+  --gray-light: #E9E9Eb;
+  --light-silver: #E1E1E1;
+  --pale-blue: #F7F9FF;
+  --lavender-blue: #D9E2FF;
+  --text1: #4B4B4B;
+  --text2: #333333;
+  --shadow-varian1: rgb(0 0 0 / 16%) 0px 1px 15px 2px;
+  --shadow-varian2: rgba(0, 0, 0, .15) 0px 0px 8px;
+  --scroll-hover: #555555;
+  --scroll-track: #F1F1F1;
+  --scroll-bar: #949494;
+  --white: #FFFFFF;
+  }

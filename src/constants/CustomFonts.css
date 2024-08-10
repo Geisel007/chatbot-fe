@@ -1,0 +1,23 @@
+.body1 {
+  font-family: 'Montserrat-Bold';
+  font-size: 16px;
+  font-weight: 700;
+  font-style: normal;
+  color: var(--text1);
+}
+
+.subtitle1 {
+  font-family: 'Montserrat-Regular';
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  color: var(--text2);
+}
+
+.subtitle2 {
+  font-family: 'Montserrat-Regular';
+  font-size: 16px;
+  font-weight: 700;
+  font-style: normal;
+  color: var(--text2);
+}
