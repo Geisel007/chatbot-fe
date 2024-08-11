@@ -1,0 +1,17 @@
+.container-message {
+  border-radius: calc(10px + 2px);
+  padding: 10px;
+  max-width: 75%;
+}
+
+.message-send {
+  background-color: var(--background2);
+  border: 1px solid var(--light-silver);
+  align-self: flex-end;
+}
+
+.message-received {
+  background-color: var(--pale-blue);
+  border: 1px solid var(--lavender-blue);
+  align-self: flex-start;
+}
