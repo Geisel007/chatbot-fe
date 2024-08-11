@@ -1,0 +1,21 @@
+.container-basic-input {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 16px;
+  box-shadow: var(--shadow-varian2);
+  height: 50px;
+  margin: 10px;
+  padding: 5px 16px;
+}
+
+.container-basic-input .basic-input {
+  border: 0px;
+  height: 40px;
+  width: 100%;
+}
+
+.container-basic-input .basic-input:focus  {
+  outline: none;
+}
+
