@@ -18,7 +18,7 @@ import ChatbotIcon from './assets/icons/chatbot.svg'
  */
 const App = () => {
 
-  const [openChatBotModal, setOpenChatBotModal] = useState(true)
+  const [openChatBotModal, setOpenChatBotModal] = useState(false)
 
   const handleChatBot = () => {
     setOpenChatBotModal(!openChatBotModal)

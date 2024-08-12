@@ -52,7 +52,7 @@ const BasicInput = forwardRef(
         <Image
           src={SendIcon}
           onClick={onClick}
-          className={'icon-close'}
+          className={'icon-send'}
         />   
       </Div>
     )

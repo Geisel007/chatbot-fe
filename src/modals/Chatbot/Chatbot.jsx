@@ -43,6 +43,9 @@ const Chatbot = ({
   const [userMessage, setUserMessage] = useState()
 
   const handleOnClickInputUser = async () => {
+    if(inputUserRef.current.value === ''){
+      return
+    }
     const dateTime = getDateTime()
     const newMessage = {
       text: inputUserRef.current.value,
