@@ -6,6 +6,14 @@
   color: var(--text1);
 }
 
+.body2 {
+  font-family: 'Montserrat-Bold';
+  font-size: 14px;
+  font-weight: 700;
+  font-style: normal;
+  color: var(--text2);
+}
+
 .subtitle1 {
   font-family: 'Montserrat-Regular';
   font-size: 14px;
@@ -20,4 +28,12 @@
   font-weight: 700;
   font-style: normal;
   color: var(--text2);
+}
+
+.mini-text {
+  font-family: 'Montserrat-Regular';
+  font-size: 10px;
+  font-weight: 500;
+  font-style: normal;
+  color: var(--text1);
 }

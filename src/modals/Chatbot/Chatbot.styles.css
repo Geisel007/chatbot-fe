@@ -1,6 +1,6 @@
 .container-chatbot {
   width: 350px;
-  height: 80%;
+  height: 80vh;
   background-color: var(--background1);
   position: fixed;
   z-index: 1000;
@@ -36,13 +36,20 @@
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  overflow: hidden;
 }
 
 .subcontainer-chatbot .conversation {
-  height: 640px;
+  height: 100%;
   padding: 0px 10px;
   overflow-y: auto;
   display: flex;
   flex-direction: column-reverse;
   gap: 8px;
+}
+
+.conversation .date-conversation {
+  display: flex;
+  justify-content: center;
+  margin-top: 4px;
 }

@@ -25,7 +25,8 @@ import './Message.styles.css'
  */
 const Message = ({
   type = Constants.typeMessage.SEND,
-  text
+  text,
+  time
 }) => {
   return (
     <Div
@@ -39,6 +40,15 @@ const Message = ({
       >
         {text}
       </Label>
+      <Div
+        className={'time-message'}
+      >
+        <Label
+          className={'mini-text'}
+        >
+          {time}
+        </Label>
+      </Div>
     </Div>
   )
 }
